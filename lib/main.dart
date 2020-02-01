@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-// import 'package:flutter_stetho/flutter_stetho.dart';
+import 'package:flutter_stetho/flutter_stetho.dart';
 import 'package:intl/intl.dart';
 import 'package:path/path.dart';
 import 'package:path_provider/path_provider.dart';
@@ -115,7 +115,7 @@ void main() {
   }
   else {
     print('Debug mode.');
-    // Stetho.initialize();
+    Stetho.initialize();
   }
 
   // その3

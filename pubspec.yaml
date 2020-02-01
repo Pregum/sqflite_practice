@@ -30,7 +30,7 @@ dependencies:
   # DatePicker日本語化用ライブラリ
   flutter_localizations: 
     sdk: flutter
-  # flutter_stetho: ^0.3.0
+  flutter_stetho: ^0.3.0
 
 dev_dependencies:
   flutter_test:
